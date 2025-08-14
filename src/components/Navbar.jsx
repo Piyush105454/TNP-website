@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="flex items-center gap-4">
           {/* Logo from public folder */}
           <img
-            src="/bgImages/tnp_logo.png"  
+            src="./bgImages/tnp_logo.png"  
             alt="RGPV Logo"
             className="w-12 h-12 object-cover rounded-full border-2 border-gray-100 shadow-sm"
           />
