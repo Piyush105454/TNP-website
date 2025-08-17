@@ -1,19 +1,19 @@
 import React from "react";
-import { Mail, Lock, User } from "lucide-react"; // for input icons
+import { Mail, Lock, User } from "lucide-react";
 
 const SignUp = () => {
   return (
     <div
-      className="bg-cover bg-center min-h-screen flex justify-center items-start px-4 pt-16"
+      className="bg-cover bg-center min-h-screen flex justify-center items-center px-4 py-10 overflow-auto"
       style={{
-        backgroundImage: "url('/bgImages/signup.jpg')", // your background image
+        backgroundImage: "url('/bgImages/signup.jpg')",
       }}
     >
-      <div className="bg-white/90 backdrop-blur-md w-full max-w-md p-6 rounded-2xl shadow-xl border border-gray-200 min-h-[400px] mb-6">
+      <div className="bg-white/90 backdrop-blur-md w-full max-w-md p-6 rounded-2xl shadow-xl border border-gray-200 min-h-[400px]">
         {/* Logo */}
         <div className="flex justify-center mb-6">
           <img
-            src="/bgImages/tnp_logo.png" // your logo
+            src="/bgImages/tnp_logo.png"
             alt="RGPV Logo"
             className="h-16"
           />
@@ -80,7 +80,7 @@ const SignUp = () => {
             </p>
           </div>
 
-          {/* Terms checkbox */}
+          {/* Terms */}
           <div className="flex items-start">
             <input
               type="checkbox"
@@ -98,7 +98,7 @@ const SignUp = () => {
             </label>
           </div>
 
-          {/* Submit Button */}
+          {/* Button */}
           <button
             type="submit"
             className="w-full bg-red-700 hover:bg-red-800 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition"
@@ -106,7 +106,7 @@ const SignUp = () => {
             Create Account
           </button>
 
-          {/* Sign-in link */}
+          {/* Sign-in */}
           <p className="text-center text-sm text-gray-600 mt-4">
             Already have an account?{" "}
             <a href="/login" className="text-red-700 font-medium hover:underline">
