@@ -2,30 +2,31 @@
 
 /* Fix user-select for cross-browser compatibility */
 .leaflet-overlay-pane svg {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 /* Fix text-size-adjust for cross-browser compatibility */
-html, :host {
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  text-size-adjust: 100%;
+html,
+:host {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 /* Fix map tile images alt text for accessibility */
 .leaflet-tile {
-  alt: "Map tile";
+    alt: "Map tile";
 }
 
 /* Improve map container accessibility */
 .leaflet-container {
-  outline: none;
+    outline: none;
 }
 
 .leaflet-container:focus {
-  outline: 2px solid #3b82f6;
-  outline-offset: 2px;
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
 }

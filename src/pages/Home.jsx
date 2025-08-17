@@ -4,6 +4,7 @@ import AboutUs from '../components/AboutUs';
 import SuccessStories from '../components/SuccessStories';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
+import LoginWindow from '../components/LoginWindow';  
 import 'leaflet/dist/leaflet.css';
 import '../styles/leaflet-fixes.css';
 import { MapContainer, TileLayer } from 'react-leaflet';
@@ -136,7 +137,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-
+<LoginWindow />
       {/* Footer */}
       <Footer />
     </div>
