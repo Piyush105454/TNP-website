@@ -137,7 +137,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-<LoginWindow />
+
       {/* Footer */}
       <Footer />
     </div>
