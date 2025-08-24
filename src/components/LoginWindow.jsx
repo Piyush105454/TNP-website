@@ -24,7 +24,7 @@ const LoginWindow = () => {
     <h1 className="text-3xl font-semibold mb-2 pl-1">Welcome to Student Portal</h1>
     <h4 className="mb-6 pl-0.5 text-gray-800">Please login or sign up to continue</h4>
 
-    <button className="bg-red-900 hover:bg-red-500 text-white py-2 px-6 rounded mb-4 w-95">
+    <button onClick={() => navigate("/signin")} className="bg-red-900 hover:bg-red-500 text-white py-2 px-6 rounded mb-4 w-95">
       Login
     </button>
     <button onClick={() => navigate("/signup")} className="bg-white hover:bg-black hover:text-white py-2 px-6 rounded border w-95">
