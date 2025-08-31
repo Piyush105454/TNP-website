@@ -169,14 +169,14 @@ const Test = () => {
                 <input
                   type="text"
                   placeholder="Search opportunities..."
-                  className="w-full rounded-lg border border-gray-300 pl-10 pr-3 py-2 text-sm md:text-base focus:outline-none focus:ring-2  bg-[#F9FAFB] "
+                  className="w-full rounded-lg border border-gray-300 pl-10 pr-3 py-2 text-sm md:text-base focus:outline-none   bg-[#F9FAFB] "
                 />
               </div>
             </div>
 
             {/* Job Type */}
             <div className="w-full md:w-[200px] lg:w-[250px]">
-              <select className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm md:text-base focus:outline-none focus:ring-2  bg-[#F9FAFB] ">
+              <select className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm md:text-base focus:outline-none  bg-[#F9FAFB] ">
                 <option>All Job Types</option>
             
               </select>
@@ -184,7 +184,7 @@ const Test = () => {
 
             {/* Location */}
             <div className="w-full md:w-[200px] lg:w-[250px]">
-              <select className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm md:text-base focus:outline-none focus:ring-2  bg-[#F9FAFB] ">
+              <select className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm md:text-base focus:outline-none   bg-[#F9FAFB] ">
                 <option>All Locations</option>
                 
               </select>
