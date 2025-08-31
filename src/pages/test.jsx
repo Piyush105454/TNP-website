@@ -146,7 +146,7 @@ const Test = () => {
         </div>
 
         {/* Search Filters */}
-        <div className="p-4 rounded-lg mb-6 w-full bg-white shadow-sm">
+        <div className="p-4 rounded-lg mb-6 w-full bg-[#F9FAFB] shadow-sm">
           <div className="flex flex-col gap-3 md:flex-row md:items-center md:space-x-4 w-full">
 
             {/* Search */}
@@ -169,28 +169,24 @@ const Test = () => {
                 <input
                   type="text"
                   placeholder="Search opportunities..."
-                  className="w-full rounded-lg border border-gray-300 pl-10 pr-3 py-2 text-sm md:text-base focus:outline-none focus:ring-2 focus:ring-[#9A0F0F]"
+                  className="w-full rounded-lg border border-gray-300 pl-10 pr-3 py-2 text-sm md:text-base focus:outline-none focus:ring-2 focus:ring-[#9A0F0F] bg-[#F9FAFB] "
                 />
               </div>
             </div>
 
             {/* Job Type */}
             <div className="w-full md:w-[200px] lg:w-[250px]">
-              <select className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm md:text-base focus:outline-none focus:ring-2 focus:ring-[#9A0F0F]">
+              <select className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm md:text-base focus:outline-none focus:ring-2 focus:ring-[#9A0F0F] bg-[#F9FAFB] ">
                 <option>All Job Types</option>
-                <option>Internship</option>
-                <option>Full-Time</option>
-                <option>Part-Time</option>
+            
               </select>
             </div>
 
             {/* Location */}
             <div className="w-full md:w-[200px] lg:w-[250px]">
-              <select className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm md:text-base focus:outline-none focus:ring-2 focus:ring-[#9A0F0F]">
+              <select className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm md:text-base focus:outline-none focus:ring-2 focus:ring-[#9A0F0F] bg-[#F9FAFB] ">
                 <option>All Locations</option>
-                <option>Remote</option>
-                <option>Hybrid</option>
-                <option>On-site</option>
+                
               </select>
             </div>
           </div>
