@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, from 'react';
 import { MapPin, Clock, DollarSign } from "lucide-react";
 
 const jobs = [
