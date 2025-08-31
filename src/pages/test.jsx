@@ -146,7 +146,7 @@ const Test = () => {
         </div>
 
         {/* Search Filters */}
-        <div className="p-4 rounded-lg mb-6 w-full bg-[#F9FAFB] shadow-sm">
+        <div className="p-4 rounded-lg mb-6 w-full bg-[#F9FAFB] ">
           <div className="flex flex-col gap-3 md:flex-row md:items-center md:space-x-4 w-full">
 
             {/* Search */}
